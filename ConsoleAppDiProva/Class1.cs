@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppDiProva
 {
-    internal class Class1
+    public class Address
     {
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public string Street { get; set; }
+        public string City { get; set; }
+        public string Province { get; set; }
+        public string ZIPCode { get; set; }
     }
 }
