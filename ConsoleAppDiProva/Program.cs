@@ -6,7 +6,7 @@ namespace ConsoleAppDiProva
     {
         static void Main(string[] args)
         {
-            List<Address> addressList = new List<Address>(Path);
+            StreamReader fileListAddresss = File.OpenText("C: \\Users\\leona\\source\\repos\\ConsoleAppDiProva\\ConsoleAppDiProva\\my - addresses.csv");
         }
     }
 }
